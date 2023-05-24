@@ -12,21 +12,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="test"
-        android:textColor="@color/white"
         android:textSize="50sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.647"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.299" />
+        app:layout_constraintVertical_bias="0.308" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="144dp"
         android:layout_height="78dp"
-        android:text="Меню"
-        android:textSize="30dp"
+        android:text="Меню выбора режимов"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -36,45 +33,28 @@
 
     <TextView
         android:id="@+id/rec"
-        android:layout_width="59dp"
-        android:layout_height="41dp"
+        android:layout_width="57dp"
+        android:layout_height="32dp"
         android:text="0"
-        android:textColor="@color/white"
-        android:textSize="30sp"
+        android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.693"
+        app:layout_constraintHorizontal_bias="0.545"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.197" />
+        app:layout_constraintVertical_bias="0.137" />
 
     <TextView
         android:id="@+id/top"
-        android:layout_width="157dp"
-        android:layout_height="49dp"
+        android:layout_width="104dp"
+        android:layout_height="47dp"
         android:text="Top record:"
-        android:textColor="@color/white"
-        android:textSize="30sp"
+        android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.35"
+        app:layout_constraintHorizontal_bias="0.289"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.199" />
-
-    <TextView
-        android:id="@+id/chit"
-        android:layout_width="122dp"
-        android:layout_height="62dp"
-        android:text="Счёт:"
-        android:textColor="@color/white"
-        android:textSize="50sp"
-
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.307"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.297" />
+        app:layout_constraintVertical_bias="0.14" />
 
 </android.support.constraint.ConstraintLayout>
